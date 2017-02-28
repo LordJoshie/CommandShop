@@ -368,9 +368,9 @@ class main extends PluginBase implements Listener{
                               break;
                          case "help":
                               $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
-                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
-                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
-                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
+                              $sender->sendMessage("enter help text here");
+                              $sender->sendMessage("enter help text here");
+                              $sender->sendMessage("enter help text here");
                               break;
                          default:
                               return false;
