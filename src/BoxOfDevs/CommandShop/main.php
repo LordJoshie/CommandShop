@@ -227,7 +227,7 @@ class main extends PluginBase implements Listener{
                                    $sender->sendMessage(self::PREFIX . "Command: " . $cmd);
                                    $sender->sendMessage(self::PREFIX . "Please set a price now using " . TF::AQUA . "/cshop setprice" . TF::WHITE . ". Or add more commands to be executed using " . TF::AQUA . "/cshop addcmd" . TF::WHITE . ".");
                               }else{
-                                   $sender->sendMessage(self::ERROR . "That command does already exist!");
+                                   $sender->sendMessage(self::ERROR . "That command name is in use, try another!");
                               }
                               break;
                          case "remove":
@@ -367,6 +367,9 @@ class main extends PluginBase implements Listener{
                               }
                               break;
                          case "help":
+                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
+                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
+                              $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
                               $sender->sendMessage("Please visit the wiki for this plugin here: https://github.com/BoxOfDevs/CommandShop/wiki");
                               break;
                          default:
