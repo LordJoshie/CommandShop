@@ -1,6 +1,8 @@
 ---
 # Config and command/sign-database for CommandShop by BoxOfDevs:
-
+# Add Buyable Command - Example: /cshop add superpowers effect {player} regeneration 100 10
+# Set Price for Command - Example: /cshop setprice superpowers money 10 or /cshop setprice superpowers item 12:0:5
+# Command to buy the Command - Example: /buycmd (command)
 # Messages:
 
 buy.money.success: "{prefix}You successfully bought the command {cmd} for {amount} {unit}!{line}{prefix}The command has already been executed."
