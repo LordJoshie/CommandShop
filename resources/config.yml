@@ -5,10 +5,10 @@
 # Command to buy the Command - Example: /buycmd (command)
 # Messages:
 
-buy.money.success: "{prefix}You successfully bought the command {cmd} for {amount} {unit}!{line}{prefix}The command has already been executed."
+buy.money.success: "{prefix}You successfully bought the command {cmd} for {amount} {unit}!{line}The command has been executed."
 buy.money.miss: "{error}You don't have enough money to buy this command. You would need {amount} {unit}!"
 
-buy.item.success: "{prefix}You successfully bought the command {cmd} with the item {item}!{line}{prefix}The command has already been executed."
+buy.item.success: "{prefix}You successfully bought the command {cmd} with the item {item}!{line}The command has been executed."
 buy.item.miss: "{error}You don't have enough items to buy this command, items needed:{line}Item: {item} Amount: {amount}"
 
 buy.contactadmin: "{line}If you are a normal user, please contact your server administrator!"
